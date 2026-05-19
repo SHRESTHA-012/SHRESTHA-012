@@ -7,7 +7,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00F7FF,50:8A2BE2,100:FF1493&section=header"/>
 
- <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWxoYWdnN3pqY2dkMWRpcTllbzZleWxpeHh1ZGswcTkyaWp1YTc2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7buijTqhjxjbEqjK/giphy.gif" width="300"/>
+ <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHBndXF5Z2ptazhtMDJneDNrcjFkaHRldXJteXR0ZWh2b3JzaW9vciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FMsbSSjEe0N6zH7K7x/giphy.gif" width="300"/>
 
 <h3 align="center">
   Passionate about building intelligent systems, scalable AI applications, and modern developer experiences.
