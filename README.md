@@ -1,1 +1,1 @@
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=HEY THERE! This is Shrestha. <br>AIML Enthusiast+RAG Developer;AI+Engineer;Open+Source+Builder" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=HEY+THERE!+This+is+Shrestha.;AIML+Enthusiast+%7C+RAG+Developer;AI+Engineer;Open+Source+Builder" />
