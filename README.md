@@ -7,7 +7,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00F7FF,50:8A2BE2,100:FF1493&section=header"/>
 
- <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ljZ3dnb2c4Njg0Z2c3aHRwd28wZGQ2NThvd3o5NTd2YzJydmJkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4ydWTcMBjimLbT1CHi/giphy.gif" width="300"/>
 
 <h3 align="center">
   Passionate about building intelligent systems, scalable AI applications, and modern developer experiences.
