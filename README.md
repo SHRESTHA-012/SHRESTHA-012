@@ -1,22 +1,17 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:4a90e2,100:50c878&height=220&section=header&text=Shrestha&fontSize=80&fontColor=ffffff" alt="Banner" />
+
+  <!-- Cosmic Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:0f172a,50:1e3a8a,100:312e81&height=280&section=header&text=Shrestha&fontSize=80&fontColor=ffffff&animation=fadeIn&desc=Exploring%20the%20Digital%20Universe%20🚀&descAlignY=65&descSize=22" alt="Space Banner" />
+
+  <h2>Hey there, Cosmic Traveler! 👋 <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="40" /></h2>
   
-  <h2>Hey there! 👋 I'm Shrestha</h2>
-  <p><strong>Building things that matter • Learning in public</strong></p>
+  <p><strong>Full-Stack Developer • Open Source Explorer • Based in Patna, India 🇮🇳</strong></p>
 
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=brightgreen" alt="Profile views" />
+  <!-- Visitor Count -->
+  <img src="https://komarev.com/ghpvc/?username=yourusername&color=7c3aed&style=for-the-badge&label=BEINGS%20WHO%20VISITED" alt="Visitors" />
 
-  <!-- Socials -->
-  <p>
-    <a href="https://twitter.com/..."><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-    <a href="https://linkedin.com/in/..."><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  </p>
-
-  <h3>🚀 Currently Working On</h3>
-  <!-- Add your projects -->
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" />
 </div>
 
 ---
-<!-- More sections below -->
+
+### 🌌 About Me
