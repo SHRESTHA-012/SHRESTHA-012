@@ -5,10 +5,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:8A2BE2&height=2"/>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/main/.images/marquee.svg">
-</p>
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00F7FF,50:8A2BE2,100:FF1493&section=header"/>
 
 <h3 align="center">
   Passionate about building intelligent systems, scalable AI applications, and modern developer experiences.
