@@ -9,8 +9,6 @@
   <img src="https://raw.githubusercontent.com/trinib/trinib/main/.images/marquee.svg">
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=header"/>
-
 
 <h3 align="center">
   Passionate about building intelligent systems, scalable AI applications, and modern developer experiences.
