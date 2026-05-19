@@ -7,7 +7,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00F7FF,50:8A2BE2,100:FF1493&section=header"/>
 
-<img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="120" alt="Twinkling Stars" />
 
 <h3 align="center">
   Passionate about building intelligent systems, scalable AI applications, and modern developer experiences.
