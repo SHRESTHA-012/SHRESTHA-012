@@ -1,0 +1,141 @@
+<svg width="100%" viewBox="0 0 680 260" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Shrestha GitHub profile banner</title>
+  <desc>Animated space-themed banner for Shrestha's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#04001a"/>
+      <stop offset="40%" stop-color="#0b0030"/>
+      <stop offset="100%" stop-color="#00080f"/>
+    </linearGradient>
+    <linearGradient id="neb1" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#3b0070" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00c8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="neb2" x1="1" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#ff006e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7b00ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="planet-fill" x1="0.2" y1="0.1" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#6a00cc"/>
+      <stop offset="60%" stop-color="#2a0060"/>
+      <stop offset="100%" stop-color="#110030"/>
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#00c8ff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00c8ff" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#b060ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#b060ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="name-grad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#00eeff"/>
+      <stop offset="55%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff4daa"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#00eeff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00eeff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet-shine" cx="30%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6a00cc" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="banner-clip">
+      <rect width="680" height="260" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+    @keyframes floatPlanet { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.6} }
+    @keyframes pulse2 { 0%,100%{opacity:0.25} 50%{opacity:0.5} }
+    @keyframes twinkle1 { 0%,100%{opacity:1} 50%{opacity:0.1} }
+    @keyframes twinkle2 { 0%,100%{opacity:0.6} 40%{opacity:1} 70%{opacity:0.15} }
+    @keyframes twinkle3 { 0%,100%{opacity:0.4} 30%{opacity:1} 80%{opacity:0.2} }
+    @keyframes shooting { 0%{transform:translateX(0) translateY(0);opacity:1} 100%{transform:translateX(120px) translateY(40px);opacity:0} }
+    @keyframes orbitDot { 0%{transform:rotate(0deg) translateX(52px) rotate(0deg)} 100%{transform:rotate(360deg) translateX(52px) rotate(-360deg)} }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+    .neb1{animation:pulse 7s ease-in-out infinite}
+    .neb2{animation:pulse2 9s ease-in-out infinite}
+    .gp{animation:floatPlanet 6s ease-in-out infinite;transform-origin:588px 92px}
+    .gname{animation:float 5s ease-in-out infinite;transform-origin:44px 108px}
+    .s1{animation:twinkle1 2.1s ease-in-out infinite}
+    .s2{animation:twinkle2 3.4s ease-in-out infinite}
+    .s3{animation:twinkle3 1.8s ease-in-out infinite}
+    .s4{animation:twinkle1 4.2s ease-in-out infinite 0.5s}
+    .s5{animation:twinkle2 2.7s ease-in-out infinite 1s}
+    .s6{animation:twinkle3 3.9s ease-in-out infinite 0.3s}
+    .shoot1{animation:shooting 4s linear infinite;transform-origin:80px 45px}
+    .orb{animation:orbitDot 8s linear infinite;transform-origin:588px 92px}
+    .pills{animation:fadeIn 1.2s ease-out both}
+    .p1{animation-delay:0.1s}.p2{animation-delay:0.2s}.p3{animation-delay:0.3s}
+    .p4{animation-delay:0.4s}.p5{animation-delay:0.5s}.p6{animation-delay:0.6s}
+    .p7{animation-delay:0.7s}.p8{animation-delay:0.8s}.p9{animation-delay:0.9s}.p10{animation-delay:1s}
+    .gcyan{animation:pulse 5s ease-in-out infinite}
+    .gpurp{animation:pulse2 6s ease-in-out infinite}
+  </style>
+  <g clip-path="url(#banner-clip)">
+    <rect width="680" height="260" fill="url(#sky)"/>
+    <ellipse class="neb1" cx="520" cy="80" rx="200" ry="110" fill="url(#neb1)"/>
+    <ellipse class="neb2" cx="160" cy="190" rx="180" ry="90" fill="url(#neb2)"/>
+    <ellipse class="gcyan" cx="80" cy="140" rx="70" ry="70" fill="url(#glow-cyan)"/>
+    <ellipse class="gpurp" cx="590" cy="110" rx="80" ry="80" fill="url(#glow-purple)"/>
+    <g class="shoot1">
+      <line x1="80" y1="45" x2="60" y2="38" stroke="white" stroke-width="1.5" opacity="0.9"/>
+    </g>
+    <g fill="white">
+      <circle class="s1" cx="30" cy="20" r="1.4"/><circle class="s2" cx="75" cy="8" r="1"/>
+      <circle class="s3" cx="120" cy="35" r="1.7"/><circle class="s4" cx="160" cy="15" r="0.9"/>
+      <circle class="s5" cx="200" cy="28" r="1.2"/><circle class="s6" cx="250" cy="10" r="1.5"/>
+      <circle class="s1" cx="290" cy="40" r="1"/><circle class="s2" cx="340" cy="18" r="1.3"/>
+      <circle class="s3" cx="380" cy="6" r="1.1"/><circle class="s4" cx="420" cy="32" r="1.6"/>
+      <circle class="s5" cx="470" cy="14" r="1"/><circle class="s6" cx="510" cy="38" r="1.2"/>
+      <circle class="s1" cx="560" cy="12" r="1.4"/><circle class="s2" cx="600" cy="28" r="0.9"/>
+      <circle class="s3" cx="640" cy="8" r="1.5"/><circle class="s4" cx="670" cy="42" r="1.1"/>
+      <circle class="s5" cx="55" cy="55" r="1"/><circle class="s6" cx="140" cy="68" r="1.2"/>
+      <circle class="s1" cx="310" cy="72" r="1.4"/><circle class="s2" cx="490" cy="75" r="1"/>
+      <circle class="s3" cx="20" cy="100" r="1.2"/><circle class="s4" cx="660" cy="120" r="1"/>
+      <circle class="s5" cx="18" cy="160" r="1.3"/><circle class="s6" cx="655" cy="155" r="1.4"/>
+      <circle class="s1" cx="45" cy="230" r="1"/><circle class="s2" cx="635" cy="250" r="1.3"/>
+      <circle class="s3" cx="400" cy="60" r="1.1"/><circle class="s4" cx="580" cy="55" r="1.3"/>
+      <circle class="s5" cx="620" cy="170" r="1.1"/><circle class="s6" cx="90" cy="245" r="1.2"/>
+    </g>
+    <g class="gp">
+      <circle cx="588" cy="92" r="42" fill="url(#planet-fill)"/>
+      <circle cx="588" cy="92" r="42" fill="url(#planet-shine)"/>
+      <ellipse cx="588" cy="88" rx="14" ry="2.5" fill="#1a0040" opacity="0.35"/>
+      <ellipse cx="588" cy="92" rx="67" ry="14" fill="none" stroke="url(#ring-grad)" stroke-width="5"/>
+      <ellipse cx="588" cy="92" rx="58" ry="10" fill="none" stroke="url(#ring-grad)" stroke-width="2.5" opacity="0.45"/>
+      <g class="orb">
+        <circle cx="588" cy="92" r="3.5" fill="#00eeff" opacity="0.9"/>
+      </g>
+    </g>
+    <g class="gname">
+      <text x="44" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="52" font-weight="800" fill="url(#name-grad)" letter-spacing="-1">Shrestha</text>
+    </g>
+    <rect x="44" y="116" width="220" height="2.5" fill="url(#line-grad)" rx="1.5"/>
+    <text x="44" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#a0b4cc" letter-spacing="0.5">AI Engineer  ·  RAG Developer  ·  Open Source</text>
+    <text x="44" y="163" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#506070" letter-spacing="0.3">Building intelligent systems · LLMs · ML · Data Science</text>
+    <g font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600">
+      <g class="pills p1"><rect x="44" y="180" width="58" height="21" rx="10.5" fill="#00eeff" fill-opacity="0.08" stroke="#00eeff" stroke-width="1"/><text x="73" y="195" fill="#00eeff" text-anchor="middle">Python</text></g>
+      <g class="pills p2"><rect x="108" y="180" width="46" height="21" rx="10.5" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-width="1"/><text x="131" y="195" fill="#a855f7" text-anchor="middle">Java</text></g>
+      <g class="pills p3"><rect x="160" y="180" width="38" height="21" rx="10.5" fill="#ff4daa" fill-opacity="0.08" stroke="#ff4daa" stroke-width="1"/><text x="179" y="195" fill="#ff4daa" text-anchor="middle">SQL</text></g>
+      <g class="pills p4"><rect x="204" y="180" width="64" height="21" rx="10.5" fill="#00eeff" fill-opacity="0.08" stroke="#00eeff" stroke-width="1"/><text x="236" y="195" fill="#00eeff" text-anchor="middle">PyTorch</text></g>
+      <g class="pills p5"><rect x="274" y="180" width="88" height="21" rx="10.5" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-width="1"/><text x="318" y="195" fill="#a855f7" text-anchor="middle">TensorFlow</text></g>
+      <g class="pills p6"><rect x="368" y="180" width="80" height="21" rx="10.5" fill="#ff4daa" fill-opacity="0.08" stroke="#ff4daa" stroke-width="1"/><text x="408" y="195" fill="#ff4daa" text-anchor="middle">LangChain</text></g>
+      <g class="pills p7"><rect x="44" y="208" width="100" height="21" rx="10.5" fill="#00eeff" fill-opacity="0.08" stroke="#00eeff" stroke-width="1"/><text x="94" y="223" fill="#00eeff" text-anchor="middle">RAG · LLMs</text></g>
+      <g class="pills p8"><rect x="150" y="208" width="36" height="21" rx="10.5" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-width="1"/><text x="168" y="223" fill="#a855f7" text-anchor="middle">Git</text></g>
+      <g class="pills p9"><rect x="192" y="208" width="64" height="21" rx="10.5" fill="#ff4daa" fill-opacity="0.08" stroke="#ff4daa" stroke-width="1"/><text x="224" y="223" fill="#ff4daa" text-anchor="middle">GitHub</text></g>
+      <g class="pills p10"><rect x="262" y="208" width="128" height="21" rx="10.5" fill="#00eeff" fill-opacity="0.08" stroke="#00eeff" stroke-width="1"/><text x="326" y="223" fill="#00eeff" text-anchor="middle">Open Source</text></g>
+    </g>
+    <rect x="0" y="0" width="680" height="3" fill="url(#line-grad)"/>
+    <rect x="0" y="257" width="680" height="3" fill="url(#line-grad)"/>
+  </g>
+</svg>
