@@ -17,6 +17,42 @@
 </p>
 <br>
 
+## 🧠 About Me
+
+<table>
+<tr>
+<td width="55%">
+
+```python
+class Shrestha:
+    def __init__(self):
+        self.name        = "Shrestha"
+        self.role        = "AI/ML Engineer & RAG Developer"
+        self.focus       = ["LLMs", "RAG Pipelines",
+                            "Vector Search", "AI Agents"]
+        self.learning    = ["Multimodal AI",
+                            "Agentic Workflows", "MLOps"]
+        self.building    = "Clean AI solutions w/ real impact"
+        self.os          = "Linux 🐧 | Windows 🪟"
+        self.fun_fact    = "I debug with print() 😄"
+
+    def say_hi(self):
+        print("Let's build something amazing! 🚀")
+
+me = Shrestha()
+me.say_hi()
+```
+
+</td>
+<td width="45%" align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="coding gif" />
+</td>
+</tr>
+</table>
+
+---
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph.svg">
