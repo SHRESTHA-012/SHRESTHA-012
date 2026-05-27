@@ -58,3 +58,20 @@ me.say_hi()
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph.svg">
 </picture>
+
+<br/><br/>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
+
+<br/><br/>
+
+### Thanks for visiting! Have a cookie 🍪
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" alt="waving" />
+<br/>
+<em><b>I love connecting with new people</b> — feel free to say hi! 😊</em>
+
+<br/>
+
+</div>
