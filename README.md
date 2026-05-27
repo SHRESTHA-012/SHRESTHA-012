@@ -15,6 +15,7 @@
   💡 Building projects that combine clean design with real-world AI solutions<br>
   🌱 Continuously learning, experimenting, and contributing to open source
 </p>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph-dark.svg">
