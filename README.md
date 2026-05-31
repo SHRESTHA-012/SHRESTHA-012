@@ -51,6 +51,13 @@ me.say_hi()
 </table>
 
 ---
+##  Contribution Activity
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=SHRESTHA-012&bg_color=0d1117&color=00F7FF&line=8A2BE2&point=FF1493&area=true&hide_border=true" />
+</div>
+
+---
 <br>
 
 <picture>
