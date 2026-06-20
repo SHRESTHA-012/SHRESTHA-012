@@ -1,0 +1,562 @@
+<svg width="100%" viewBox="0 0 680 260" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Shrestha — Dark Mystical Banner</title>
+  <defs>
+
+    <!-- ── Backgrounds ── -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#010008"/>
+      <stop offset="45%"  stop-color="#060015"/>
+      <stop offset="100%" stop-color="#00070f"/>
+    </linearGradient>
+
+    <!-- ── Crystal / Orb ── -->
+    <radialGradient id="orb-core" cx="38%" cy="30%" r="65%">
+      <stop offset="0%"   stop-color="#e8d0ff"/>
+      <stop offset="25%"  stop-color="#b060ff"/>
+      <stop offset="60%"  stop-color="#4400bb"/>
+      <stop offset="100%" stop-color="#0d001e"/>
+    </radialGradient>
+    <radialGradient id="orb-rim" cx="50%" cy="50%" r="50%">
+      <stop offset="60%"  stop-color="#00eeff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0.5"/>
+    </radialGradient>
+    <radialGradient id="orb-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#a855f7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="inner-light" cx="38%" cy="28%" r="45%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── Runes glow ── -->
+    <radialGradient id="rune-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00eeff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── Text ── -->
+    <!-- Runic name: cold cyan core bleeding into violet -->
+    <linearGradient id="name-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#cfffff"/>
+      <stop offset="30%"  stop-color="#00eeff"/>
+      <stop offset="65%"  stop-color="#b060ff"/>
+      <stop offset="100%" stop-color="#7700cc"/>
+    </linearGradient>
+    <!-- Vertical shimmer for layered glow pass -->
+    <linearGradient id="name-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="45%"  stop-color="#00eeff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7700cc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00eeff"/>
+      <stop offset="70%"  stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- ── Mist / Fog ── -->
+    <radialGradient id="mist1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#5500cc" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#5500cc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mist2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00eeff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mist3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ff00aa" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ff00aa" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── Ground / portal glow ── -->
+    <radialGradient id="portal-glow" cx="50%" cy="20%" r="80%">
+      <stop offset="0%"   stop-color="#7700ff" stop-opacity="0.55"/>
+      <stop offset="60%"  stop-color="#3300aa" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3300aa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor-glow" cx="50%" cy="0%" r="100%">
+      <stop offset="0%"   stop-color="#00eeff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── Pill fills ── -->
+    <linearGradient id="pill-c" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00eeff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00eeff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="pill-p" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#a855f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="pill-k" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ff66cc" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff66cc" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <!-- ── Filters ── -->
+    <filter id="blur-lg"  x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="blur-md"  x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur-sm"  x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="blur-xs"  x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="glow-txt">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-orb-f">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-rune">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="clip"><rect width="680" height="260" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    /* ── Core animations ── */
+    @keyframes breathe   { 0%,100%{transform:scale(1)}       50%{transform:scale(1.06)} }
+    @keyframes floatOrb  { 0%,100%{transform:translateY(0)}  50%{transform:translateY(-10px)} }
+    @keyframes pulseGlow { 0%,100%{opacity:.5}               50%{opacity:1} }
+    @keyframes pulseGlow2{ 0%,100%{opacity:.3}               50%{opacity:.8} }
+    @keyframes mistDrift { 0%{transform:translateX(0)  scaleX(1)}   50%{transform:translateX(18px) scaleX(1.1)}  100%{transform:translateX(0)  scaleX(1)} }
+    @keyframes mistDrift2{ 0%{transform:translateX(0)  scaleX(1)}   50%{transform:translateX(-14px)scaleX(1.08)} 100%{transform:translateX(0)  scaleX(1)} }
+    @keyframes twinkle   { 0%,100%{opacity:1}                50%{opacity:.08} }
+    @keyframes twinkle2  { 0%,100%{opacity:.5}  40%{opacity:1}  70%{opacity:.1} }
+    @keyframes twinkle3  { 0%,100%{opacity:.35} 30%{opacity:1}  80%{opacity:.12} }
+    @keyframes runeFlare { 0%,100%{opacity:.35;stroke-width:1}   50%{opacity:1;stroke-width:1.8} }
+    @keyframes runeFlare2{ 0%,100%{opacity:.2;stroke-width:.8}   50%{opacity:.9;stroke-width:1.6} }
+    @keyframes spinSlow  { from{transform:rotate(0deg)}  to{transform:rotate(360deg)} }
+    @keyframes spinCCW   { from{transform:rotate(0deg)}  to{transform:rotate(-360deg)} }
+    @keyframes arcPulse  { 0%,100%{stroke-opacity:.25;stroke-dashoffset:0}   50%{stroke-opacity:.9;stroke-dashoffset:-30} }
+    @keyframes arcPulse2 { 0%,100%{stroke-opacity:.15;stroke-dashoffset:0}   50%{stroke-opacity:.7;stroke-dashoffset:20} }
+    @keyframes portalSpin{ from{transform:rotate(0deg) scaleX(1)}  to{transform:rotate(360deg) scaleX(1)} }
+    @keyframes fadeSlide { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes pillBeat  { 0%,100%{fill-opacity:.07} 50%{fill-opacity:.2} }
+    @keyframes glitch    {
+      0%,94%,100%{transform:translateX(0);opacity:1}
+      95%{transform:translateX(-3px);opacity:.85}
+      97%{transform:translateX(3px);opacity:.85}
+    }
+    @keyframes shoot     {
+      0%{transform:translate(-120px,-36px);opacity:0}
+      8%{opacity:1} 100%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes shoot2    {
+      0%{transform:translate(-90px,-25px);opacity:0}
+      10%{opacity:.8} 100%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes energyRing{
+      0%{r:36;stroke-opacity:.8}  70%{r:72;stroke-opacity:0}  100%{r:72;stroke-opacity:0}
+    }
+    @keyframes energyRing2{
+      0%{r:36;stroke-opacity:.6}  70%{r:68;stroke-opacity:0}  100%{r:68;stroke-opacity:0}
+    }
+    @keyframes shimmer   { 0%,100%{stop-color:#00eeff} 50%{stop-color:#ff66cc} }
+    @keyframes lineGrow  { from{stroke-dashoffset:300} to{stroke-dashoffset:0} }
+
+    /* ── Applied ── */
+    .orb-wrap   { animation: floatOrb 5s ease-in-out infinite; transform-origin:560px 118px }
+    .orb-pulse  { animation: pulseGlow 3s ease-in-out infinite; transform-origin:560px 118px }
+    .orb-breath { animation: breathe 6s ease-in-out infinite;   transform-origin:560px 118px }
+    .mist1      { animation: mistDrift  11s ease-in-out infinite }
+    .mist2      { animation: mistDrift2 14s ease-in-out infinite }
+    .mist3      { animation: mistDrift  18s ease-in-out infinite 3s }
+    .rune1      { animation: runeFlare  2.4s ease-in-out infinite }
+    .rune2      { animation: runeFlare2 3.1s ease-in-out infinite 0.4s }
+    .rune3      { animation: runeFlare  2s   ease-in-out infinite 0.8s }
+    .rune4      { animation: runeFlare2 3.8s ease-in-out infinite 1.2s }
+    .rune5      { animation: runeFlare  2.8s ease-in-out infinite 0.6s }
+    .rune6      { animation: runeFlare2 1.9s ease-in-out infinite 1.4s }
+    .ring-outer { animation: spinSlow 22s linear infinite; transform-origin:560px 118px }
+    .ring-inner { animation: spinCCW  14s linear infinite; transform-origin:560px 118px }
+    .arc1       { animation: arcPulse  3s ease-in-out infinite; stroke-dasharray:40 60 }
+    .arc2       { animation: arcPulse2 4s ease-in-out infinite 1s; stroke-dasharray:25 75 }
+    .arc3       { animation: arcPulse  2.5s ease-in-out infinite 2s; stroke-dasharray:15 85 }
+    .e-ring1    { animation: energyRing  2.8s ease-out infinite }
+    .e-ring2    { animation: energyRing2 2.8s ease-out infinite 1.4s }
+    .s1{animation:twinkle  2.1s ease-in-out infinite}
+    .s2{animation:twinkle2 3.4s ease-in-out infinite}
+    .s3{animation:twinkle3 1.8s ease-in-out infinite}
+    .s4{animation:twinkle  4.2s ease-in-out infinite .5s}
+    .s5{animation:twinkle2 2.7s ease-in-out infinite 1s}
+    .s6{animation:twinkle3 3.9s ease-in-out infinite .3s}
+    .s7{animation:twinkle  5s   ease-in-out infinite 1.6s}
+    .s8{animation:twinkle2 2.3s ease-in-out infinite .7s}
+    .shoot1     { animation: shoot  6s linear infinite 0.5s; transform-origin:580px 40px }
+    .shoot2     { animation: shoot2 9s linear infinite 4s;   transform-origin:400px 22px }
+    @keyframes runicPulse {
+      0%,100%{ filter:drop-shadow(0 0 4px #00eeff) drop-shadow(0 0 12px #7700cc); opacity:1 }
+      40%    { filter:drop-shadow(0 0 10px #00eeff) drop-shadow(0 0 28px #a855f7) drop-shadow(0 0 48px #5500aa); opacity:1 }
+      70%    { filter:drop-shadow(0 0 6px #b060ff)  drop-shadow(0 0 18px #00eeff); opacity:0.92 }
+    }
+    @keyframes runicReveal {
+      0%  { opacity:0; letter-spacing:12px }
+      60% { opacity:1; letter-spacing:3px  }
+      100%{ opacity:1; letter-spacing:3px  }
+    }
+    @keyframes glyphFlicker {
+      0%,89%,100%{ opacity:1 }
+      90%{ opacity:0.5 }
+      93%{ opacity:1   }
+      96%{ opacity:0.65}
+    }
+    @keyframes underlineGrow {
+      from{ stroke-dashoffset:320 }
+      to  { stroke-dashoffset:0   }
+    }
+    @keyframes dotOrbit {
+      from{ transform:rotate(0deg)   translateX(10px) rotate(0deg)   }
+      to  { transform:rotate(360deg) translateX(10px) rotate(-360deg)}
+    }
+    @keyframes dotOrbitCCW {
+      from{ transform:rotate(0deg)    translateX(8px) rotate(0deg)    }
+      to  { transform:rotate(-360deg) translateX(8px) rotate(360deg) }
+    }
+    .rune-name    { animation: runicReveal 1.4s cubic-bezier(0.22,1,0.36,1) both 0.1s,
+                               runicPulse  5s ease-in-out infinite 1.5s }
+    .rune-glyph   { animation: glyphFlicker 9s ease-in-out infinite }
+    .rune-dot1    { animation: dotOrbit   4s linear infinite; transform-origin:44px 95px }
+    .rune-dot2    { animation: dotOrbitCCW 6s linear infinite; transform-origin:44px 95px }
+    .rune-underline{ animation: underlineGrow 1.3s ease-out both 0.3s; stroke-dasharray:320 }
+    .gp1        { animation: pulseGlow  4s ease-in-out infinite }
+    .gp2        { animation: pulseGlow2 6s ease-in-out infinite 1s }
+    .gp3        { animation: pulseGlow  9s ease-in-out infinite 2s }
+    .pills      { animation: fadeSlide 0.9s ease-out both }
+    .p1{animation-delay:.15s}.p2{animation-delay:.26s}.p3{animation-delay:.37s}
+    .p4{animation-delay:.48s}.p5{animation-delay:.59s}.p6{animation-delay:.70s}
+    .p7{animation-delay:.81s}.p8{animation-delay:.92s}.p9{animation-delay:1.03s}.p10{animation-delay:1.14s}
+    .pr-c { animation: pillBeat 3.5s ease-in-out infinite }
+    .pr-p { animation: pillBeat 4.2s ease-in-out infinite 1s }
+    .pr-k { animation: pillBeat 3s   ease-in-out infinite .5s }
+    .title-in  { animation: fadeSlide .8s ease-out both .05s }
+    .sub-in    { animation: fadeSlide .8s ease-out both .2s }
+    .role-in   { animation: fadeSlide .8s ease-out both .34s }
+    .line-in   { animation: lineGrow 1.2s ease-out both .1s; stroke-dasharray:300 }
+  </style>
+
+  <g clip-path="url(#clip)">
+
+    <!-- ════ BACKGROUND ════ -->
+    <rect width="680" height="260" fill="url(#bg)"/>
+
+    <!-- ════ MIST LAYERS ════ -->
+    <ellipse class="mist1" cx="540" cy="110" rx="260" ry="130" fill="url(#mist1)"/>
+    <ellipse class="mist2" cx="160" cy="160" rx="220" ry="110" fill="url(#mist2)"/>
+    <ellipse class="mist3" cx="340" cy="220" rx="180" ry="70"  fill="url(#mist3)"/>
+
+    <!-- ════ AMBIENT GLOWS ════ -->
+    <ellipse class="gp1" cx="560" cy="118" rx="110" ry="110" fill="url(#orb-glow)"    filter="url(#blur-lg)"/>
+    <ellipse class="gp2" cx="120" cy="130" rx="100" ry="100" fill="url(#mist2)"        filter="url(#blur-lg)"/>
+    <ellipse class="gp3" cx="340" cy="250" rx="180" ry="55"  fill="url(#portal-glow)"  filter="url(#blur-lg)"/>
+
+    <!-- ════ STARS ════ -->
+    <g fill="white">
+      <circle class="s1" cx="22"  cy="16"  r="1.2"/>
+      <circle class="s2" cx="70"  cy="8"   r="0.8"/>
+      <circle class="s3" cx="114" cy="30"  r="1.5"/>
+      <circle class="s4" cx="155" cy="12"  r="0.7"/>
+      <circle class="s5" cx="195" cy="24"  r="1.0"/>
+      <circle class="s6" cx="244" cy="7"   r="1.3"/>
+      <circle class="s7" cx="282" cy="36"  r="0.8"/>
+      <circle class="s8" cx="332" cy="14"  r="1.1"/>
+      <circle class="s1" cx="370" cy="4"   r="0.9"/>
+      <circle class="s2" cx="412" cy="28"  r="1.4"/>
+      <circle class="s3" cx="460" cy="10"  r="0.8"/>
+      <circle class="s4" cx="504" cy="34"  r="1.0"/>
+      <circle class="s5" cx="552" cy="8"   r="1.2"/>
+      <circle class="s6" cx="594" cy="24"  r="0.7"/>
+      <circle class="s7" cx="635" cy="6"   r="1.3"/>
+      <circle class="s8" cx="666" cy="38"  r="0.9"/>
+      <circle class="s2" cx="48"  cy="50"  r="0.8"/>
+      <circle class="s3" cx="134" cy="63"  r="1.0"/>
+      <circle class="s4" cx="218" cy="55"  r="0.7"/>
+      <circle class="s5" cx="302" cy="68"  r="1.2"/>
+      <circle class="s6" cx="484" cy="70"  r="0.8"/>
+      <circle class="s7" cx="396" cy="55"  r="1.1"/>
+      <circle class="s8" cx="572" cy="50"  r="0.9"/>
+      <circle class="s1" cx="646" cy="65"  r="0.7"/>
+      <circle class="s3" cx="16"  cy="96"  r="1.0"/>
+      <circle class="s5" cx="654" cy="115" r="0.8"/>
+      <circle class="s7" cx="14"  cy="155" r="1.1"/>
+      <circle class="s1" cx="660" cy="150" r="1.2"/>
+      <circle class="s2" cx="40"  cy="225" r="0.8"/>
+      <circle class="s4" cx="630" cy="245" r="1.1"/>
+      <circle class="s6" cx="178" cy="246" r="0.7"/>
+      <circle class="s8" cx="355" cy="250" r="0.9"/>
+      <circle class="s3" cx="498" cy="242" r="0.8"/>
+    </g>
+
+    <!-- ════ SHOOTING STARS ════ -->
+    <g class="shoot1">
+      <line x1="580" y1="40" x2="510" y2="22"
+        stroke="white" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+      <circle cx="580" cy="40" r="1.6" fill="white"/>
+    </g>
+    <g class="shoot2">
+      <line x1="400" y1="22" x2="340" y2="10"
+        stroke="#00eeff" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="400" cy="22" r="1.2" fill="#00eeff"/>
+    </g>
+
+    <!-- ════ RUNE SYMBOLS ════ ─── scattered across the dark bg -->
+    <!-- Left area runes -->
+    <g filter="url(#glow-rune)" fill="none">
+      <!-- Rune 1: triangle-ish -->
+      <polygon class="rune1" points="25,200 34,185 43,200"
+        stroke="#00eeff" stroke-width="1" stroke-linejoin="round"/>
+      <line class="rune1" x1="29" y1="192" x2="39" y2="192" stroke="#00eeff" stroke-width="1"/>
+
+      <!-- Rune 2: cross-star -->
+      <line class="rune2" x1="648" y1="188" x2="648" y2="200" stroke="#a855f7" stroke-width="1.2"/>
+      <line class="rune2" x1="642" y1="194" x2="654" y2="194" stroke="#a855f7" stroke-width="1.2"/>
+      <line class="rune2" x1="644" y1="189" x2="652" y2="199" stroke="#a855f7" stroke-width="0.8"/>
+
+      <!-- Rune 3: diamond -->
+      <polygon class="rune3" points="660,80 667,90 660,100 653,90"
+        stroke="#00eeff" stroke-width="1" stroke-linejoin="round"/>
+
+      <!-- Rune 4: Y-fork -->
+      <line class="rune4" x1="18" y1="76" x2="18" y2="66" stroke="#a855f7" stroke-width="1.2"/>
+      <line class="rune4" x1="18" y1="76" x2="12" y2="84" stroke="#a855f7" stroke-width="1.2"/>
+      <line class="rune4" x1="18" y1="76" x2="24" y2="84" stroke="#a855f7" stroke-width="1.2"/>
+
+      <!-- Rune 5: hourglass -->
+      <polygon class="rune5" points="362,84 370,76 378,84 370,92"
+        stroke="#ff66cc" stroke-width="0.9"/>
+
+      <!-- Rune 6: arrows / chevrons -->
+      <polyline class="rune6" points="26,232 32,238 26,244" stroke="#00eeff" stroke-width="1.2" stroke-linejoin="round"/>
+      <polyline class="rune6" points="34,232 40,238 34,244" stroke="#00eeff" stroke-width="1"   stroke-linejoin="round"/>
+    </g>
+
+    <!-- ════ MYSTIC ORB ════ -->
+    <g class="orb-wrap">
+
+      <!-- Energy pulse rings (expanding outward) -->
+      <circle class="e-ring1" cx="560" cy="118" r="36"
+        fill="none" stroke="#a855f7" stroke-width="1.5"/>
+      <circle class="e-ring2" cx="560" cy="118" r="36"
+        fill="none" stroke="#00eeff" stroke-width="1"/>
+
+      <!-- Halo -->
+      <circle cx="560" cy="118" r="80" fill="url(#orb-glow)" filter="url(#blur-lg)"/>
+
+      <!-- ── Outer rotating ring of sigils ── -->
+      <g class="ring-outer">
+        <circle cx="560" cy="118" r="72"
+          fill="none" stroke="#a855f7" stroke-width="0.5" stroke-opacity="0.3"
+          stroke-dasharray="4 6"/>
+        <!-- cardinal ticks -->
+        <line x1="560" y1="46"  x2="560" y2="52"  stroke="#00eeff" stroke-width="1.5" stroke-opacity="0.7"/>
+        <line x1="632" y1="118" x2="626" y2="118" stroke="#00eeff" stroke-width="1.5" stroke-opacity="0.7"/>
+        <line x1="560" y1="190" x2="560" y2="184" stroke="#00eeff" stroke-width="1.5" stroke-opacity="0.7"/>
+        <line x1="488" y1="118" x2="494" y2="118" stroke="#00eeff" stroke-width="1.5" stroke-opacity="0.7"/>
+        <!-- intercardinal diamonds -->
+        <polygon points="560,49 563,52 560,55 557,52" fill="#a855f7" opacity="0.9"/>
+        <polygon points="630,116 633,119 630,122 627,119" fill="#a855f7" opacity="0.9"/>
+        <polygon points="560,188 563,191 560,194 557,191" fill="#a855f7" opacity="0.9"/>
+        <polygon points="491,116 494,119 491,122 488,119" fill="#a855f7" opacity="0.9"/>
+      </g>
+
+      <!-- ── Inner rotating ring ── -->
+      <g class="ring-inner">
+        <circle cx="560" cy="118" r="52"
+          fill="none" stroke="#00eeff" stroke-width="0.6" stroke-opacity="0.25"
+          stroke-dasharray="2 5"/>
+        <!-- arc flash segments -->
+        <path class="arc1" d="M560,66 A52,52 0 0,1 612,118"
+          fill="none" stroke="#00eeff" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="arc2" d="M560,170 A52,52 0 0,1 508,118"
+          fill="none" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="arc3" d="M600,82 A52,52 0 0,1 600,154"
+          fill="none" stroke="#ff66cc" stroke-width="1" stroke-linecap="round"/>
+      </g>
+
+      <!-- ── Orb body ── -->
+      <g class="orb-breath">
+        <!-- Deep glow under orb -->
+        <circle cx="560" cy="118" r="42" fill="url(#orb-glow)" filter="url(#blur-md)"/>
+        <!-- Main sphere -->
+        <circle cx="560" cy="118" r="36" fill="url(#orb-core)"/>
+        <!-- Shine highlight -->
+        <circle cx="560" cy="118" r="36" fill="url(#inner-light)"/>
+        <!-- Rim cyan -->
+        <circle cx="560" cy="118" r="36" fill="url(#orb-rim)"  filter="url(#blur-xs)"/>
+        <!-- Rim stroke -->
+        <circle cx="560" cy="118" r="36"
+          fill="none" stroke="#00eeff" stroke-width="1" stroke-opacity="0.4"/>
+        <!-- Inner glow sparkle -->
+        <circle cx="548" cy="106" r="8"
+          fill="white" fill-opacity="0.12" filter="url(#blur-xs)"/>
+        <!-- Crack lines (mystical detail) -->
+        <line x1="555" y1="100" x2="565" y2="118" stroke="white" stroke-width="0.6" stroke-opacity="0.25"/>
+        <line x1="565" y1="118" x2="558" y2="134" stroke="white" stroke-width="0.5" stroke-opacity="0.18"/>
+        <line x1="565" y1="118" x2="575" y2="128" stroke="white" stroke-width="0.5" stroke-opacity="0.15"/>
+      </g>
+
+      <!-- Floor reflection -->
+      <ellipse cx="560" cy="172" rx="38" ry="6"
+        fill="url(#floor-glow)" filter="url(#blur-sm)"/>
+    </g>
+
+    <!-- ════ TEXT ════ -->
+
+    <!-- ── Runic name block ── -->
+    <g>
+      <!-- Deep wide glow bloom behind the name -->
+      <text x="44" y="108"
+        font-family="'Segoe UI',system-ui,Arial,sans-serif"
+        font-size="52" font-weight="900"
+        fill="#5500cc" opacity="0.55" letter-spacing="3"
+        filter="url(#blur-lg)">Shrestha</text>
+
+      <!-- Mid glow layer -->
+      <text x="44" y="108"
+        font-family="'Segoe UI',system-ui,Arial,sans-serif"
+        font-size="52" font-weight="900"
+        fill="#00eeff" opacity="0.18" letter-spacing="3"
+        filter="url(#blur-md)">Shrestha</text>
+
+      <!-- Thin outline pass — etched-in-stone feel -->
+      <text x="44" y="108"
+        font-family="'Segoe UI',system-ui,Arial,sans-serif"
+        font-size="52" font-weight="900"
+        fill="none" stroke="#00eeff" stroke-width="0.6"
+        stroke-opacity="0.35" letter-spacing="3">Shrestha</text>
+
+      <!-- Main runic name -->
+      <text class="rune-name" x="44" y="108"
+        font-family="'Segoe UI',system-ui,Arial,sans-serif"
+        font-size="52" font-weight="900"
+        fill="url(#name-grad)" letter-spacing="3">Shrestha</text>
+
+      <!-- Top-shine overlay (vertical highlight, like light hitting an engraving) -->
+      <text x="44" y="108"
+        font-family="'Segoe UI',system-ui,Arial,sans-serif"
+        font-size="52" font-weight="900"
+        fill="url(#name-shine)" opacity="0.45" letter-spacing="3"
+        class="rune-glyph">Shrestha</text>
+
+      <!-- Tiny orbiting spark left of name (mystical anchor point) -->
+      <g class="rune-dot1">
+        <circle cx="44" cy="95" r="2.2" fill="#00eeff" opacity="0.9"/>
+      </g>
+      <g class="rune-dot2">
+        <circle cx="44" cy="95" r="1.4" fill="#ff66cc" opacity="0.7"/>
+      </g>
+
+      <!-- Small rune marks above the name — tick / glyph decorations -->
+      <g fill="none" stroke="#00eeff" stroke-linecap="round" opacity="0.5">
+        <line x1="44"  y1="68" x2="44"  y2="76"/>
+        <line x1="40"  y1="72" x2="48"  y2="72"/>
+        <line x1="57"  y1="66" x2="60"  y2="74"/>
+        <line x1="53"  y1="70" x2="64"  y2="70"/>
+        <line x1="72"  y1="65" x2="72"  y2="73"/>
+        <line x1="68"  y1="69" x2="76"  y2="69"/>
+      </g>
+      <g fill="none" stroke="#a855f7" stroke-linecap="round" opacity="0.4">
+        <line x1="87"  y1="67" x2="90"  y2="75"/>
+        <line x1="84"  y1="71" x2="93"  y2="71"/>
+        <line x1="100" y1="65" x2="103" y2="73"/>
+        <line x1="97"  y1="69" x2="106" y2="69"/>
+      </g>
+    </g>
+
+    <!-- Divider — now a rune-styled double line -->
+    <line class="rune-underline" x1="44" y1="117" x2="310" y2="117"
+      stroke="url(#line-grad)" stroke-width="1.5" stroke-linecap="round"/>
+    <line class="rune-underline" x1="44" y1="120.5" x2="240" y2="120.5"
+      stroke="url(#line-grad)" stroke-width="0.7" stroke-linecap="round" opacity="0.45"/>
+    <!-- Glow pass on divider -->
+    <line x1="44" y1="117" x2="310" y2="117"
+      stroke="#00eeff" stroke-width="3" stroke-linecap="round"
+      filter="url(#blur-xs)" opacity="0.2"/>
+
+    <text class="sub-in" x="44" y="144"
+      font-family="'Segoe UI',system-ui,Arial,sans-serif"
+      font-size="13" font-weight="500" fill="#a8c4d8" letter-spacing="0.7">
+      AI Engineer · RAG Developer · Open Source
+    </text>
+
+    <text class="role-in" x="44" y="163"
+      font-family="'Segoe UI',system-ui,Arial,sans-serif"
+      font-size="11.5" fill="#445260" letter-spacing="0.3">
+      Building intelligent systems · LLMs · ML · Data Science
+    </text>
+
+    <!-- ════ TECH PILLS ════ -->
+    <g font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="600">
+
+      <!-- Row 1 -->
+      <g class="pills p1">
+        <rect x="44"  y="180" width="62" height="22" rx="11" class="pr-c" fill="url(#pill-c)" stroke="#00eeff" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="75"  y="195.5" fill="#00eeff" text-anchor="middle">Python</text>
+      </g>
+      <g class="pills p2">
+        <rect x="112" y="180" width="44" height="22" rx="11" class="pr-p" fill="url(#pill-p)" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="134" y="195.5" fill="#a855f7" text-anchor="middle">Java</text>
+      </g>
+      <g class="pills p3">
+        <rect x="162" y="180" width="38" height="22" rx="11" class="pr-k" fill="url(#pill-k)" stroke="#ff66cc" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="181" y="195.5" fill="#ff66cc" text-anchor="middle">SQL</text>
+      </g>
+      <g class="pills p4">
+        <rect x="206" y="180" width="66" height="22" rx="11" class="pr-c" fill="url(#pill-c)" stroke="#00eeff" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="239" y="195.5" fill="#00eeff" text-anchor="middle">PyTorch</text>
+      </g>
+      <g class="pills p5">
+        <rect x="278" y="180" width="94" height="22" rx="11" class="pr-p" fill="url(#pill-p)" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="325" y="195.5" fill="#a855f7" text-anchor="middle">TensorFlow</text>
+      </g>
+      <g class="pills p6">
+        <rect x="378" y="180" width="84" height="22" rx="11" class="pr-k" fill="url(#pill-k)" stroke="#ff66cc" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="420" y="195.5" fill="#ff66cc" text-anchor="middle">LangChain</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g class="pills p7">
+        <rect x="44"  y="210" width="104" height="22" rx="11" class="pr-c" fill="url(#pill-c)" stroke="#00eeff" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="96"  y="225.5" fill="#00eeff" text-anchor="middle">RAG · LLMs</text>
+      </g>
+      <g class="pills p8">
+        <rect x="154" y="210" width="36"  height="22" rx="11" class="pr-p" fill="url(#pill-p)" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="172" y="225.5" fill="#a855f7" text-anchor="middle">Git</text>
+      </g>
+      <g class="pills p9">
+        <rect x="196" y="210" width="68"  height="22" rx="11" class="pr-k" fill="url(#pill-k)" stroke="#ff66cc" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="230" y="225.5" fill="#ff66cc" text-anchor="middle">GitHub</text>
+      </g>
+      <g class="pills p10" style="animation-delay:1.05s">
+        <rect x="270" y="210" width="102" height="22" rx="11" class="pr-p" fill="url(#pill-p)" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="321" y="225.5" fill="#a855f7" text-anchor="middle">Data Science</text>
+      </g>
+      <g class="pills" style="animation-delay:1.18s">
+        <rect x="378" y="210" width="102" height="22" rx="11" class="pr-c" fill="url(#pill-c)" stroke="#00eeff" stroke-width="0.9" stroke-opacity="0.6"/>
+        <text x="429" y="225.5" fill="#00eeff" text-anchor="middle">Open Source</text>
+      </g>
+    </g>
+
+    <!-- ════ BORDERS & ACCENTS ════ -->
+    <!-- Top border -->
+    <rect x="0" y="0"   width="680" height="2.5" fill="url(#line-grad)" opacity="0.9"/>
+    <rect x="0" y="0"   width="680" height="2.5" fill="url(#line-grad)" filter="url(#blur-xs)" opacity="0.5"/>
+    <!-- Bottom border -->
+    <rect x="0" y="257.5" width="680" height="2.5" fill="url(#line-grad)" opacity="0.7"/>
+
+    <!-- Corner rune dots -->
+    <circle cx="5"   cy="5"   r="3" fill="#00eeff" opacity="0.7"/>
+    <circle cx="675" cy="5"   r="3" fill="#a855f7" opacity="0.7"/>
+    <circle cx="5"   cy="255" r="3" fill="#ff66cc" opacity="0.6"/>
+    <circle cx="675" cy="255" r="3" fill="#00eeff" opacity="0.5"/>
+
+    <!-- Tiny corner ornament lines -->
+    <line x1="12" y1="5"   x2="30" y2="5"   stroke="#00eeff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <line x1="5"  y1="12"  x2="5"  y2="28"  stroke="#00eeff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <line x1="668" y1="5"  x2="650" y2="5"  stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+    <line x1="675" y1="12" x2="675" y2="28" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  </g>
+</svg>
