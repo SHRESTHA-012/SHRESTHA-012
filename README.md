@@ -1,4 +1,4 @@
-<img width="100%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/banner.svg"/>
+<img width="100%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/banner_mystical (2).svg"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=HEY+THERE!+This+is+Shrestha.;AIML+%7C+Data+Science+%7C+RAG+Developer;AI+Engineer;Open+Source+Contributor" />
 
