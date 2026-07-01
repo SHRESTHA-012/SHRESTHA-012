@@ -50,6 +50,7 @@ me.say_hi()
 </tr>
 </table>
 
+
 ---
 ##  Contribution Activity
 
@@ -57,6 +58,7 @@ me.say_hi()
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=SHRESTHA-012&bg_color=0d1117&color=00F7FF&line=8A2BE2&point=FF1493&area=true&hide_border=true" />
 </div>
 
+<img width="100%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/profile-banner-pixel-forest (1).svg"/>
 ---
 <br>
 
