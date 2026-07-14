@@ -1,5 +1,6 @@
-
 <img width="100%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/banner_mystical (2).svg"/>
+
+![banner](https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/minecraft-cherry-banner.svg)
 
 ![skate cat](https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/skate_cat.svg)
 
