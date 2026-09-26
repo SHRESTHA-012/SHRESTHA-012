@@ -58,7 +58,7 @@ me.say_hi()
 
 
 <p align="center">
-  <img width="30%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/turtle_flower (1).svg"/>
+  <img width="30%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/turtle_flower (3).svg"/>
 </p>
 
 <br>
