@@ -57,16 +57,13 @@ me.say_hi()
 </table>
 
 
----
-##  Contribution Activity
+<p align="center">
+  <img width="30%" src="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/main/turtle_flower (1).svg"/>
+</p>
 
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=SHRESTHA-012&bg_color=0d1117&color=00F7FF&line=8A2BE2&point=FF1493&area=true&hide_border=true" />
-</div>
-
-
----
 <br>
+
+## Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SHRESTHA-012/SHRESTHA-012/output/pacman-contribution-graph-dark.svg">
